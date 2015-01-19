@@ -1,0 +1,67 @@
+html {
+    height: auto;
+}
+#wrapper {
+    width: 100%;
+    height: auto;
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#titulo {
+    padding-top: 15px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+h1,h3{
+    width: 100%;
+}
+#cuerpo {
+    height: 620px;
+    width: 100%;
+}
+#mapa {
+    position: relative;
+    top: 20px;
+    float: left;
+    margin-left: 10px;
+    width: 750px;
+    height: 560px;
+}
+
+#lista{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    background-color:rgba(220,220,220,0.8);
+    width: 540px;
+    height: 560px;
+}
+#guiaTrafico{
+    float: left;
+    margin-left: 120px;
+}
+
+#calculador{
+    float: left;
+}
+
+#start{
+    float: left;
+    margin-top: 30px;
+   margin-left: -160px;
+    
+}
+
+#end{
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+#enviar{
+       position: relative;
+    top: 30px;
+    left: 50px;
+}
